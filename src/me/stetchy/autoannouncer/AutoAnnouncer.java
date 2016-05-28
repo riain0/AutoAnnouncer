@@ -26,7 +26,7 @@ public class AutoAnnouncer implements JavaPlugin {
 	int timeInMinutes;
 
 	@Override
-	public boolean onEnable() {
+	public void onEnable() {
 		setupConfig();
 		if (!jp.getConfig().getBoolean("announcer.enabled"))
 			return false;
