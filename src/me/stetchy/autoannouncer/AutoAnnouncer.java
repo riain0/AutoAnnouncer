@@ -55,7 +55,7 @@ public class AutoAnnouncer implements JavaPlugin {
 		List<String> configJList = new ArrayList<String>() {
 			{
 				this.add("{text:\"[\",color:gold,extra:[{text:\"Broadcast\",color:dark_red},{text:\"]\",color:gold},{text:\" Click this to visit our forums!\",color:green,clickEvent:{action:open_url,value:\"http://www.serverwebsite.com\"}}]}");
-				this.add(" &aJoin an talk on our Temspeak server! ts.hcraid.com");
+				this.add(" &aJoin and talk on our Teamspeak server! ts.website.com");
 			}
 		};
 		fc.addDefault("announcer.prefix", prefix);
